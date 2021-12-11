@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'fsm:FSM|STATE.ST_READ'
+Slack : -2.210
+TNS   : -59.651
+
+Type  : Setup 'HCLK'
+Slack : -2.025
+TNS   : -66.433
+
+Type  : Setup 'fsm:FSM|STATE.ST_WRITE'
+Slack : -1.900
+TNS   : -49.731
+
+Type  : Setup 'fsm:FSM|STATE.ST_WENABLEP'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Hold 'fsm:FSM|STATE.ST_WRITE'
+Slack : -3.459
+TNS   : -133.466
+
+Type  : Hold 'fsm:FSM|STATE.ST_READ'
+Slack : -3.149
+TNS   : -82.924
+
+Type  : Hold 'HCLK'
+Slack : -1.751
+TNS   : -8.197
+
+Type  : Hold 'fsm:FSM|STATE.ST_WENABLEP'
+Slack : -1.378
+TNS   : -1.378
+
+Type  : Minimum Pulse Width 'HCLK'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'fsm:FSM|STATE.ST_READ'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'fsm:FSM|STATE.ST_WENABLEP'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'fsm:FSM|STATE.ST_WRITE'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
